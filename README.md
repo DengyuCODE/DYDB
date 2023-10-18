@@ -1,2 +1,1 @@
-# ISchoolNews
-ISchoolNew project
+
