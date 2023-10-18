@@ -33,6 +33,7 @@ public class Parser {
         return buffer.getLong();//获取缓冲区中的Long数据类型
     }
 
+    //这里putLong操作之后
     public static byte[] long2Byte(long value) {
         return ByteBuffer.allocate(Long.SIZE / Byte.SIZE).putLong(value).array();
     }
